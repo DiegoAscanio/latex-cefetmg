@@ -1,22 +1,35 @@
 # LaTeX CEFET-MG [![Actions Status](https://github.com/cfgnunes/latex-cefetmg/workflows/build/badge.svg)](https://github.com/cfgnunes/latex-cefetmg/actions)
 
-Se você gosta desse modelo, faça uma doação para apoiar o desenvolvedor.
-[![paypal](https://www.paypalobjects.com/pt_BR/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=28TY53S7HPN9S)
-[![mercadopago](https://http2.mlstatic.com/ui/navigation/4.1.4/mercadopago/logo__small.png)](https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=77777663-0bd99901-1d1b-4d5d-a8d2-ae1d4eb75127)
-
 Modelo não-oficial de trabalho acadêmico desenvolvido para os alunos do [CEFET-MG](http://www.cefetmg.br/).
 Este projeto consiste em uma estrutura básica de arquivos em [LaTeX](https://www.latex-project.org/) para o desenvolvimento de trabalhos monográficos (TCC, Dissertação e Tese).
 Inspirado no projeto [abnTeX2](https://github.com/abntex/abntex2), o modelo é compatível com as normas [ABNT](http://www.abnt.org.br/) vigentes.
 
-Para um modelo de apresentação em slides, visite o projeto [latex-slides](https://github.com/cfgnunes/latex-slides/).
+É possível utilizar esse modelo online ou instalando o LaTeX em seu computador.
 
-![exemplo](figuras/figura-exemplo.png)
+## Usando o modelo online
 
-## Começando
+Vantagens de usar o modelo online são:
+
+- não precisa instalar o LaTeX;
+- permite editar seu trabalho em diferentes computadores;
+- permite compartilhar o texto online com outras pessoas de forma simples.
+
+Desvantagem:
+
+- só poderá editar seu trabalho se estiver conectado na Internet.
+
+Para utilizar o LaTeX online é necessário que você se registre gratuitamente no [Overleaf](https://www.overleaf.com/latex/templates/latex-cefetmg/hsyqwvtprcpt).
+Note que existe uma versão paga do Overleaf, que oferece funcionalidades que podem ser desejáveis, mas não são necessárias.
+
+Para abrir este modelo diretamente no Overleaf, [clique aqui](https://www.overleaf.com/latex/templates/latex-cefetmg/vtpykndsqtkf).
+
+[![exemplo](figuras/figura-exemplo.png)](https://www.overleaf.com/latex/templates/latex-cefetmg/vtpykndsqtkf)
+
+## Usando o modelo em seu computador (usando GNU/Linux)
 
 ### Pré-requisitos
 
-Esta seção assume o Ubuntu 16.04 (também testado no Ubuntu 20.04), mas o procedimento é semelhante para outras distribuições Linux.
+Esta seção assume o sistema operacional Ubuntu 16.04 (também testado no Ubuntu 20.04), mas o procedimento é semelhante para outras distribuições GNU/Linux.
 Para poder compilar o documento, basta instalar os seguintes pacotes no terminal:
 
 ```sh
